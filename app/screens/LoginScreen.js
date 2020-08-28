@@ -29,14 +29,14 @@ function LoginScreen(props) {
           placeholder="Email"
           textContentType="emailAddress"
         />
-        {/* <FormField
+        <FormField
           autoCapitalize="none"
           autoCorrect={false}
           icon="lock"
           name="password"
           placeholder="Password"
           secureTextEntry
-          textContentType="password" */}
+          textContentType="password"
         />
         <SubmitButton title="Login" />
       </Form>
