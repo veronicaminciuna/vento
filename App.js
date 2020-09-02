@@ -6,5 +6,5 @@ import MessagesScreen from "./app/screens/MessagesScreen";
 //mapped to UI View of iOS
 
 export default function App() {
-  return <MessagesScreen />;
+  return <RegisterScreen />;
 }
