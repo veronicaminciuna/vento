@@ -38,8 +38,8 @@ const styles = StyleSheet.create({
   },
   deleteIcon: {
     position: "absolute",
-    top: 40,
-    right: 30,
+    top: 50,
+    right: 40,
   },
   image: {
     width: "100%",
