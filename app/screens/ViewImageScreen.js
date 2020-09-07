@@ -28,9 +28,9 @@ function ViewImageScreen(props) {
 
 const styles = StyleSheet.create({
   closeIcon: {
-    position: "absolute",
-    top: 40,
-    left: 30,
+    position: "relative",
+    top: 30,
+    left: 20,
   },
   container: {
     backgroundColor: colors.black,
