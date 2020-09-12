@@ -46,12 +46,6 @@ const categories = [
     label: "Games",
     value: 4,
   },
-  {
-    backgroundColor: "#2bcbba",
-    icon: "shoe-heel",
-    label: "Clothing",
-    value: 5,
-  },
 ];
 
 function ListingEditScreen() {
