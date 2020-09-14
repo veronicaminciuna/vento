@@ -35,15 +35,15 @@ const styles = StyleSheet.create({
   price: {
     color: colors.secondary,
     fontWeight: "bold",
-    fontSize: 30,
-    marginVertical: 20,
+    fontSize: 40,
+    marginVertical: 30,
   },
   title: {
-    fontSize: 25,
+    fontSize: 35,
     fontWeight: "500",
   },
   userContainer: {
-    marginVertical: 50,
+    marginVertical: 60,
   },
 });
 
