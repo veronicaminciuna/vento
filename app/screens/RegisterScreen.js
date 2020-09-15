@@ -43,7 +43,7 @@ function RegisterScreen() {
           secureTextEntry
           textContentType="password"
         />
-        <SubmitButton title="Sign Up" />
+        <SubmitButton title="Register" />
       </Form>
     </Screen>
   );
@@ -51,7 +51,7 @@ function RegisterScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 10,
+    padding: 20,
   },
 });
 
