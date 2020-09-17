@@ -11,7 +11,7 @@ import {
 const initialMessages = [
   {
     id: 1,
-    title: "Nicole Doe",
+    title: "Nicole Mein",
     description: "Please let me know if this item is available",
     image: require("../assets/nicole.jpg"),
   },
@@ -19,7 +19,7 @@ const initialMessages = [
     id: 2,
     title: "Anna Smith",
     description:
-      "I'm interested in this item. When will you be able to post it?",
+      "I'm interested in this item. When will you be able to post?",
     image: require("../assets/anna.jpg"),
   },
 ];
@@ -43,7 +43,7 @@ function MessagesScreen(props) {
             title={item.title}
             subTitle={item.description}
             image={item.image}
-            onPress={() => console.log("Message selected", item)}
+            onPress={() => console.log("Message", item)}
             renderRightActions={() => (
               <ListItemDeleteAction onPress={() => handleDelete(item)} />
             )}
