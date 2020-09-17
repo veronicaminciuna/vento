@@ -37,9 +37,9 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   deleteIcon: {
-    position: "relative",
-    top: 40,
-    right: 35,
+    position: "absolute",
+    top: 30,
+    right: 25,
   },
   image: {
     width: "100%",

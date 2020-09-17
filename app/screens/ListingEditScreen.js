@@ -32,13 +32,13 @@ const categories = [
     backgroundColor: "#fd9644",
     icon: "car",
     label: "Cars",
-    value: 2,
+    value: 3,
   },
   {
     backgroundColor: "#fed330",
     icon: "camera",
     label: "Cameras",
-    value: 3,
+    value: 2,
   },
   {
     backgroundColor: "#26de81",
