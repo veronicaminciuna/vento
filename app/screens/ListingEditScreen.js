@@ -32,20 +32,20 @@ const categories = [
     backgroundColor: "#fd9644",
     icon: "car",
     label: "Cars",
-    value: 3,
+    value: 2,
   },
   {
     backgroundColor: "#fed330",
     icon: "camera",
     label: "Cameras",
-    value: 2,
+    value: 3,
   },
-  {
-    backgroundColor: "#26de81",
-    icon: "cards",
-    label: "Games",
-    value: 4,
-  },
+  // {
+  //   backgroundColor: "#26de81",
+  //   icon: "cards",
+  //   label: "Games",
+  //   value: 4,
+  // },
 ];
 
 function ListingEditScreen() {
@@ -71,7 +71,7 @@ function ListingEditScreen() {
           maxLength={8}
           name="price"
           placeholder="Price"
-          width={120}
+          width={130}
         />
         <Picker
           items={categories}
@@ -82,7 +82,7 @@ function ListingEditScreen() {
           width="50%"
         />
         <FormField
-          maxLength={255}
+          maxLength={300}
           multiline
           name="description"
           numberOfLines={3}
