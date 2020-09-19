@@ -65,24 +65,24 @@ function ListingEditScreen() {
         validationSchema={validationSchema}
       >
         <FormImagePicker name="images" />
-        <FormField maxLength={255} name="title" placeholder="Title" />
+        <FormField maxLength={300} name="title" placeholder="Title" />
         <FormField
           keyboardType="numeric"
-          maxLength={8}
+          maxLength={10}
           name="price"
           placeholder="Price"
-          width={130}
+          width={120}
         />
         <Picker
           items={categories}
           name="category"
-          numberOfColumns={3}
+          numberOfColumns={4}
           PickerItemComponent={CategoryPickerItem}
           placeholder="Category"
-          width="50%"
+          width="100%"
         />
         <FormField
-          maxLength={300}
+          maxLength={200}
           multiline
           name="description"
           numberOfLines={3}
