@@ -68,24 +68,24 @@ function ListingEditScreen() {
         <FormField maxLength={300} name="title" placeholder="Title" />
         <FormField
           keyboardType="numeric"
-          maxLength={10}
+          maxLength={8}
           name="price"
-          placeholder="Price"
-          width={120}
+          placeholder=" New Price"
+          width={110}
         />
         <Picker
           items={categories}
           name="category"
-          numberOfColumns={4}
+          numberOfColumns={3}
           PickerItemComponent={CategoryPickerItem}
           placeholder="Category"
           width="100%"
         />
         <FormField
-          maxLength={200}
+          maxLength={100}
           multiline
           name="description"
-          numberOfLines={3}
+          numberOfLines={4}
           placeholder="Description"
         />
         <SubmitButton title="Post" />
