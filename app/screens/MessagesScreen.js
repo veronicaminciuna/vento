@@ -43,7 +43,7 @@ function MessagesScreen(props) {
             title={item.title}
             subTitle={item.description}
             image={item.image}
-            onPress={() => console.log("Message", item)}
+            onPress={() => console.log("New Message", item)}
             renderRightActions={() => (
               <ListItemDeleteAction onPress={() => handleDelete(item)} />
             )}
@@ -53,12 +53,12 @@ function MessagesScreen(props) {
         refreshing={refreshing}
         onRefresh={() => {
           setMessages([
-            {
-              id: 2,
-              title: "T2",
-              description: "D2",
-              image: require("../assets/anna.jpg"),
-            },
+            // {
+            //   id: 2,
+            //   title: "T2",
+            //   description: "D2",
+            //   image: require("../assets/anna.jpg"),
+            // },
           ]);
         }}
       />
