@@ -14,7 +14,7 @@ const listings = [
   },
   {
     id: 2,
-    title: "Chair in great condition",
+    title: "Chair in good condition",
     price: 200,
     image: require("../assets/chair.jpg"),
   },
@@ -40,7 +40,7 @@ function ListingsScreen(props) {
 
 const styles = StyleSheet.create({
   screen: {
-    padding: 20,
+    padding: 30,
     backgroundColor: colors.light,
   },
 });

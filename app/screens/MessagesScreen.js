@@ -19,7 +19,7 @@ const initialMessages = [
     id: 2,
     title: "Anna Smith",
     description:
-      "I'm interested in this item. When will you be able to post?",
+      "I'm interested in this item ?",
     image: require("../assets/anna.jpg"),
   },
 ];
@@ -53,12 +53,12 @@ function MessagesScreen(props) {
         refreshing={refreshing}
         onRefresh={() => {
           setMessages([
-            // {
-            //   id: 2,
-            //   title: "T2",
-            //   description: "D2",
-            //   image: require("../assets/anna.jpg"),
-            // },
+            {
+              id: 2,
+              title: "T2",
+              description: "D2",
+              image: require("../assets/anna.jpg"),
+            },
           ]);
         }}
       />
