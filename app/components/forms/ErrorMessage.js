@@ -10,7 +10,7 @@ function ErrorMessage({ error, visible }) {
 }
 
 const styles = StyleSheet.create({
-  error: { color: "yelow" },
+  error: { color: "red" },
 });
 
 export default ErrorMessage;
