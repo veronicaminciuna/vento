@@ -21,14 +21,14 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 50,
-    width: "50%",
-    marginVertical: 30,
+    width: "100%",
+    marginVertical: 50,
   },
   text: {
     color: colors.white,
-    fontSize: 18,
+    fontSize: 25,
     textTransform: "uppercase",
-    fontWeight: "italic",
+    fontWeight: "bold",
   },
 });
 
