@@ -18,15 +18,15 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: colors.primary,
     borderRadius: 25,
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: "right",
+    alignItems: "right",
     padding: 50,
     width: "100%",
     marginVertical: 50,
   },
   text: {
     color: colors.white,
-    fontSize: 25,
+    fontSize: 21,
     textTransform: "uppercase",
     fontWeight: "bold",
   },
