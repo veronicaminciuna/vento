@@ -20,15 +20,15 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     justifyContent: "right",
     alignItems: "right",
-    padding: 50,
+    padding: 25,
     width: "100%",
-    marginVertical: 50,
+    marginVertical: 25,
   },
   text: {
     color: colors.white,
-    fontSize: 21,
+    fontSize: 18,
     textTransform: "uppercase",
-    fontWeight: "bold",
+    fontWeight: "italic",
   },
 });
 
