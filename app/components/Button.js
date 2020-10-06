@@ -17,18 +17,18 @@ function AppButton({ title, onPress, color = "secondary" }) {
 const styles = StyleSheet.create({
   button: {
     backgroundColor: colors.primary,
-    borderRadius: 25,
+    borderRadius: 35,
     justifyContent: "right",
     alignItems: "right",
-    padding: 25,
+    padding: 35,
     width: "100%",
-    marginVertical: 25,
+    marginVertical: 35,
   },
   text: {
-    color: colors.white,
-    fontSize: 18,
+    color: colors.red,
+    fontSize: 21,
     textTransform: "uppercase",
-    fontWeight: "italic",
+    fontWeight: "bold",
   },
 });
 
