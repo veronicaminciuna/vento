@@ -7,8 +7,8 @@ import Text from "../Text";
 import colors from "../../config/colors";
 
 function ListItem({
-  title,
-  subTitle,
+  // title,
+  // subTitle,
   image,
   IconComponent,
   onPress,
@@ -32,7 +32,7 @@ function ListItem({
           </View>
           <MaterialCommunityIcons
             color={colors.medium}
-            name="chevron-right"
+            name="chevron-left"
             size={25}
           />
         </View>
@@ -43,7 +43,7 @@ function ListItem({
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: "center",
+    alignItems: "left",
     flexDirection: "row",
     padding: 15,
     backgroundColor: colors.white,
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   detailsContainer: {
     flex: 1,
     marginLeft: 10,
-    justifyContent: "center",
+    justifyContent: "left",
   },
   image: {
     width: 70,
