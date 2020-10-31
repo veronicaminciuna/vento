@@ -43,7 +43,7 @@ function ListItem({
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: "left",
+    alignItems: "center",
     flexDirection: "row",
     padding: 15,
     backgroundColor: colors.white,
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   detailsContainer: {
     flex: 1,
     marginLeft: 10,
-    justifyContent: "left",
+    justifyContent: "center",
   },
   image: {
     width: 70,
