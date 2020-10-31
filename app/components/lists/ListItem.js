@@ -45,12 +45,12 @@ const styles = StyleSheet.create({
   container: {
     alignItems: "center",
     flexDirection: "row",
-    padding: 15,
+    padding: 19,
     backgroundColor: colors.white,
   },
   detailsContainer: {
     flex: 1,
-    marginLeft: 10,
+    marginLeft: 19,
     justifyContent: "center",
   },
   image: {
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     color: colors.medium,
   },
   title: {
-    fontWeight: "500",
+    fontWeight: "100",
   },
 });
 
