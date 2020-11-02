@@ -49,20 +49,20 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
   },
   detailsContainer: {
-    flex: 1,
-    marginLeft: 19,
+    flex: 2,
+    marginLeft: 21,
     justifyContent: "center",
   },
   image: {
-    width: 70,
-    height: 70,
-    borderRadius: 35,
+    width: 75,
+    height: 75,
+    borderRadius: 30,
   },
   subTitle: {
     color: colors.medium,
   },
   title: {
-    fontWeight: "100",
+    fontWeight: "50",
   },
 });
 
