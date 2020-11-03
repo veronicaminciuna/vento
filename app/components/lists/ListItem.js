@@ -51,18 +51,18 @@ const styles = StyleSheet.create({
   detailsContainer: {
     flex: 2,
     marginLeft: 21,
-    justifyContent: "center",
+    justifyContent: "right",
   },
   image: {
     width: 75,
     height: 75,
-    borderRadius: 30,
+    borderRadius: 20,
   },
   subTitle: {
-    color: colors.medium,
+    color: colors.large,
   },
   title: {
-    fontWeight: "50",
+    fontWeight: "20",
   },
 });
 
