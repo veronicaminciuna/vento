@@ -7,8 +7,8 @@ import Text from "../Text";
 import colors from "../../config/colors";
 
 function ListItem({
-  // title,
-  // subTitle,
+  title,
+  subTitle,
   image,
   IconComponent,
   onPress,
@@ -44,7 +44,7 @@ function ListItem({
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
-    flexDirection: "row",
+    flexDirection: "column",
     padding: 19,
     backgroundColor: colors.white,
   },
