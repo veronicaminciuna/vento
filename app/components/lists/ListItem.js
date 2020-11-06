@@ -51,12 +51,12 @@ const styles = StyleSheet.create({
   detailsContainer: {
     flex: 2,
     marginLeft: 21,
-    justifyContent: "right",
+    justifyContent: "center",
   },
   image: {
-    width: 75,
-    height: 75,
-    borderRadius: 20,
+    width: 65,
+    height: 65,
+    borderRadius: 25,
   },
   subTitle: {
     color: colors.large,
