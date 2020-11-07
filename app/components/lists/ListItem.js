@@ -50,19 +50,19 @@ const styles = StyleSheet.create({
   },
   detailsContainer: {
     flex: 2,
-    marginLeft: 21,
-    justifyContent: "center",
+    marginLeft: 18,
+    justifyContent: "right",
   },
   image: {
-    width: 65,
-    height: 65,
-    borderRadius: 25,
+    width: 75,
+    height: 75,
+    borderRadius: 19,
   },
   subTitle: {
     color: colors.large,
   },
   title: {
-    fontWeight: "20",
+    fontWeight: "22",
   },
 });
 
