@@ -44,14 +44,14 @@ function ListItem({
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
-    flexDirection: "column",
+    flexDirection: "row",
     padding: 19,
     backgroundColor: colors.white,
   },
   detailsContainer: {
     flex: 2,
     marginLeft: 18,
-    justifyContent: "right",
+    justifyContent: "center",
   },
   image: {
     width: 75,
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     color: colors.large,
   },
   title: {
-    fontWeight: "22",
+    fontWeight: "18",
   },
 });
 
