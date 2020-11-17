@@ -54,15 +54,15 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   image: {
-    width: 75,
-    height: 75,
+    width: 65,
+    height: 65,
     borderRadius: 20,
   },
   subTitle: {
     color: colors.large,
   },
   title: {
-    fontWeight: "25",
+    fontWeight: "20",
   },
 });
 
