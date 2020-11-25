@@ -9,9 +9,9 @@ function ListItemDeleteAction({ onPress }) {
     <TouchableWithoutFeedback onPress={onPress}>
       <View style={styles.container}>
         <MaterialCommunityIcons
-          name="trash-can"
-          size={36}
-          color={colors.red}
+          name="trash"
+          size={34}
+          color={colors.green}
         />
       </View>
     </TouchableWithoutFeedback>
