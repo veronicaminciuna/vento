@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     color: colors.large,
   },
   title: {
-    fontWeight: "40",
+    fontWeight: "20",
   },
 });
 
