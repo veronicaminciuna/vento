@@ -54,9 +54,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   image: {
-    width: 65,
-    height: 65,
-    borderRadius: 20,
+    width: 60,
+    height: 60,
+    borderRadius: 30,
   },
   subTitle: {
     color: colors.large,
